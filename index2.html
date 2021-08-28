@@ -9,7 +9,30 @@ date: August23,2021
 <title> manpreet's portfolio</title>
 <link href="teststyles.css" rel="stylesheet" type="text/css" />
 <style>
-
+caption  {
+font-weight:bold;
+font-size: 1.2em;
+margin-bottom: 8px;
+}
+table, th, td {
+            border: 1px solid #0d1f2d;
+            border-collapse: collapse;
+            padding: 5px 10px;
+        }
+        table {
+    width: 90%;
+    margin:auto;
+}
+tr {
+            height: 30px;
+        }
+        th {
+    background-color: #546a7b; 
+    color:#f2eded;
+}    
+tbody tr:nth-child(odd) {
+            background-color: #e4c3ad; 
+        }     
 </style>
 </head>
 <body>
@@ -40,11 +63,14 @@ date: August23,2021
 <img src="images/experience.png" alt="Past Experience of manpreet" style="width:300px;"/>
 <table border="1">
 <caption>Employement History</caption>
+<thead>
 <tr bgcolor="palegreen">
     <th>Years of Employement</th>
     <th>Title</th>
     <th>Company</th>
 </tr>
+</thead>
+<tbody>
 <tr>
     <td>2021-Present</td>
     <td>Apprentice</td>
@@ -65,9 +91,9 @@ date: August23,2021
     <td>Student</td>
     <td>Punjab Technical University</td>
 </tr>
+</tbody>
 </table>
 </article>
-
 <article class="border" id="hobbies">
 <h2><em>Hobbies</em></h2>
 <img src="images/hobbies.png" alt="Hobbies of manpreet" style="width:300px;"/>
